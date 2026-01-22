@@ -34,8 +34,8 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://bakingsocial.com',
-    siteName: 'The Baking Social',
-    title: 'The Baking Social | Atlanta\'s Premier Baking Experience',
+    siteName: 'Baking Social',
+    title: 'Baking Social',
     description:
       'An elevated baking experience in the heart of Atlanta. Intimate classes, private events, and unforgettable culinary moments.',
     images: [
@@ -43,13 +43,13 @@ export const metadata: Metadata = {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'The Baking Social - Where the art of baking becomes an experience',
+        alt: 'Baking Social - Where the art of baking becomes an experience',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'The Baking Social | Atlanta\'s Premier Baking Experience',
+    title: 'Baking Social',
     description:
       'An elevated baking experience in the heart of Atlanta. Intimate classes, private events, and unforgettable culinary moments.',
     images: ['/og-image.png'],
