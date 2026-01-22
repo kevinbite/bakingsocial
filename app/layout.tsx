@@ -15,6 +15,7 @@ const playfairDisplay = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://thebakingsocial.com'),
   title: 'The Baking Social | Atlanta\'s Premier Baking Experience',
   description:
     'An elevated baking experience in the heart of Atlanta. The Baking Social offers intimate, hands-on classes, private events, and unforgettable culinary moments in a setting of refined elegance.',
@@ -37,21 +38,12 @@ export const metadata: Metadata = {
     title: 'The Baking Social | Atlanta\'s Premier Baking Experience',
     description:
       'An elevated baking experience in the heart of Atlanta. Intimate classes, private events, and unforgettable culinary moments.',
-    images: [
-      {
-        url: '/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'The Baking Social - Refined Baking Excellence',
-      },
-    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'The Baking Social | Atlanta\'s Premier Baking Experience',
     description:
       'An elevated baking experience in the heart of Atlanta. Intimate classes, private events, and unforgettable culinary moments.',
-    images: ['/og-image.jpg'],
   },
   robots: {
     index: true,
