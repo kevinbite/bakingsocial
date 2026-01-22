@@ -15,7 +15,7 @@ const playfairDisplay = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://thebakingsocial.com'),
+  metadataBase: new URL('https://bakingsocial.com'),
   title: 'The Baking Social | Atlanta\'s Premier Baking Experience',
   description:
     'An elevated baking experience in the heart of Atlanta. The Baking Social offers intimate, hands-on classes, private events, and unforgettable culinary moments in a setting of refined elegance.',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://thebakingsocial.com',
+    url: 'https://bakingsocial.com',
     siteName: 'The Baking Social',
     title: 'The Baking Social | Atlanta\'s Premier Baking Experience',
     description:
